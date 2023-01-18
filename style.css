@@ -1,0 +1,40 @@
+body{
+    background-color: aqua;
+}
+
+.form{
+   text-align: center;
+   border: 2px solid black;
+   padding:9rem;
+   
+   
+}
+
+.formdetails{
+    display: flex;
+    flex-direction: column;  
+    align-items: center; 
+    
+}
+
+.formInput, .btn{
+    margin: 5px;
+    width: 50%;
+    height: 2rem;
+    border-radius: 5px;
+    border: none;
+
+}
+
+.formInput:hover{
+    cursor:text;
+    
+    background-color: rgb(213, 213, 213);
+}
+
+.btn{
+    color: white;
+    font-weight: bold;
+    background-color: blue;
+    width: 20%;
+}
